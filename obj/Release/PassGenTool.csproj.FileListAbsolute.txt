@@ -1,0 +1,8 @@
+C:\Users\Spudw\source\repos\PassGenTool\bin\Release\PassGenTool.exe.config
+C:\Users\Spudw\source\repos\PassGenTool\bin\Release\PassGenTool.exe
+C:\Users\Spudw\source\repos\PassGenTool\bin\Release\PassGenTool.pdb
+C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.Properties.Resources.resources
+C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.csproj.GenerateResource.cache
+C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.csproj.CoreCompileInputs.cache
+C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.exe
+C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.pdb

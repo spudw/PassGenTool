@@ -1,0 +1,9 @@
+C:\Users\Spudw\source\repos\PassGenTool\bin\Debug\PassGenTool.exe.config
+C:\Users\Spudw\source\repos\PassGenTool\bin\Debug\PassGenTool.exe
+C:\Users\Spudw\source\repos\PassGenTool\bin\Debug\PassGenTool.pdb
+C:\Users\Spudw\source\repos\PassGenTool\obj\Debug\PassGenTool.Properties.Resources.resources
+C:\Users\Spudw\source\repos\PassGenTool\obj\Debug\PassGenTool.csproj.GenerateResource.cache
+C:\Users\Spudw\source\repos\PassGenTool\obj\Debug\PassGenTool.csproj.CoreCompileInputs.cache
+C:\Users\Spudw\source\repos\PassGenTool\obj\Debug\PassGenTool.exe
+C:\Users\Spudw\source\repos\PassGenTool\obj\Debug\PassGenTool.pdb
+C:\Users\Spudw\source\repos\PassGenTool\obj\Debug\PassGenTool.csprojAssemblyReference.cache
