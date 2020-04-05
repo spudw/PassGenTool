@@ -6,3 +6,4 @@ C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.csproj.GenerateR
 C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.csproj.CoreCompileInputs.cache
 C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.exe
 C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.pdb
+C:\Users\Spudw\source\repos\PassGenTool\obj\Release\PassGenTool.csprojAssemblyReference.cache

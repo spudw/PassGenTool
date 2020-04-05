@@ -170,6 +170,8 @@ namespace PassGenTool
             btnKeyReveal.Checked = true;
             btnKeyReveal.Text = TEXT_REVEAL_ACCEL_W;
             txtPassphrase.Enabled = false;
+            txtPassword.Enabled = false;
+            txtPassword.BackColor = System.Drawing.SystemColors.Window;
             txtKey.Enabled = true;
             txtKey.Focus();
         }
@@ -227,6 +229,8 @@ namespace PassGenTool
                 btnKey.Text = TEXT_KEY_CHANGE;
                 btnKeyReveal.Checked = false;
                 btnKeyReveal.Text = TEXT_REVEAL_ACCEL_S;
+                txtPassword.Enabled = true;
+                txtPassword.BackColor = System.Drawing.SystemColors.ControlLightLight;
                 txtPassphrase.Enabled = true;
                 txtPassphrase.Focus();
                 GeneratePassword();
