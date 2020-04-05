@@ -170,7 +170,6 @@ namespace PassGenTool
             btnKeyReveal.Checked = true;
             btnKeyReveal.Text = TEXT_REVEAL_ACCEL_W;
             txtPassphrase.Enabled = false;
-            txtPassword.Enabled = false;
             txtKey.Enabled = true;
             txtKey.Focus();
         }
@@ -229,7 +228,6 @@ namespace PassGenTool
                 btnKeyReveal.Checked = false;
                 btnKeyReveal.Text = TEXT_REVEAL_ACCEL_S;
                 txtPassphrase.Enabled = true;
-                txtPassword.Enabled = true;
                 txtPassphrase.Focus();
                 GeneratePassword();
             }
