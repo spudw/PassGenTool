@@ -260,9 +260,10 @@ namespace PassGenTool
                     byte[] key = (byte[])ProtectedKey;
                     sKey = UnprotectKey(key);
                 }
+                regKey.Close();
+                return sKey;
             }
-            regKey.Close();
-            return sKey;
+
         }
 
         private void SaveKeyToReg(string sValue)
