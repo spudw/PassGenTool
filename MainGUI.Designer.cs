@@ -48,9 +48,10 @@
             this.btnKeyReveal.AutoSize = true;
             this.btnKeyReveal.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnKeyReveal.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnKeyReveal.Location = new System.Drawing.Point(14, 34);
+            this.btnKeyReveal.Location = new System.Drawing.Point(26, 63);
+            this.btnKeyReveal.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnKeyReveal.Name = "btnKeyReveal";
-            this.btnKeyReveal.Size = new System.Drawing.Size(44, 23);
+            this.btnKeyReveal.Size = new System.Drawing.Size(72, 35);
             this.btnKeyReveal.TabIndex = 0;
             this.btnKeyReveal.Text = "&Show";
             this.btnKeyReveal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -61,9 +62,10 @@
             // 
             this.lblKey.AutoSize = true;
             this.lblKey.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKey.Location = new System.Drawing.Point(65, 37);
+            this.lblKey.Location = new System.Drawing.Point(119, 68);
+            this.lblKey.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblKey.Name = "lblKey";
-            this.lblKey.Size = new System.Drawing.Size(38, 16);
+            this.lblKey.Size = new System.Drawing.Size(64, 29);
             this.lblKey.TabIndex = 1;
             this.lblKey.Text = "Key:";
             this.lblKey.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -72,18 +74,20 @@
             // 
             this.txtKey.Enabled = false;
             this.txtKey.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtKey.Location = new System.Drawing.Point(109, 30);
+            this.txtKey.Location = new System.Drawing.Point(200, 55);
+            this.txtKey.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtKey.Name = "txtKey";
-            this.txtKey.Size = new System.Drawing.Size(276, 30);
+            this.txtKey.Size = new System.Drawing.Size(503, 46);
             this.txtKey.TabIndex = 1;
             this.txtKey.UseSystemPasswordChar = true;
             this.txtKey.TextChanged += new System.EventHandler(this.txtKey_TextChanged);
             // 
             // btnKey
             // 
-            this.btnKey.Location = new System.Drawing.Point(395, 30);
+            this.btnKey.Location = new System.Drawing.Point(724, 55);
+            this.btnKey.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnKey.Name = "btnKey";
-            this.btnKey.Size = new System.Drawing.Size(54, 30);
+            this.btnKey.Size = new System.Drawing.Size(99, 55);
             this.btnKey.TabIndex = 2;
             this.btnKey.Text = "&Change";
             this.btnKey.UseVisualStyleBackColor = true;
@@ -93,9 +97,10 @@
             // 
             this.lblPassphrase.AutoSize = true;
             this.lblPassphrase.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassphrase.Location = new System.Drawing.Point(8, 92);
+            this.lblPassphrase.Location = new System.Drawing.Point(15, 170);
+            this.lblPassphrase.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPassphrase.Name = "lblPassphrase";
-            this.lblPassphrase.Size = new System.Drawing.Size(95, 16);
+            this.lblPassphrase.Size = new System.Drawing.Size(157, 29);
             this.lblPassphrase.TabIndex = 6;
             this.lblPassphrase.Text = "Passphrase:";
             this.lblPassphrase.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -103,17 +108,20 @@
             // txtPassphrase
             // 
             this.txtPassphrase.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassphrase.Location = new System.Drawing.Point(109, 85);
+            this.txtPassphrase.Location = new System.Drawing.Point(200, 157);
+            this.txtPassphrase.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPassphrase.Name = "txtPassphrase";
-            this.txtPassphrase.Size = new System.Drawing.Size(276, 30);
+            this.txtPassphrase.Size = new System.Drawing.Size(503, 46);
             this.txtPassphrase.TabIndex = 3;
             this.txtPassphrase.TextChanged += new System.EventHandler(this.txtPassphrase_TextChanged);
             // 
             // btnPassphrase
             // 
-            this.btnPassphrase.Location = new System.Drawing.Point(402, 85);
+            this.btnPassphrase.Enabled = false;
+            this.btnPassphrase.Location = new System.Drawing.Point(737, 157);
+            this.btnPassphrase.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnPassphrase.Name = "btnPassphrase";
-            this.btnPassphrase.Size = new System.Drawing.Size(40, 30);
+            this.btnPassphrase.Size = new System.Drawing.Size(73, 55);
             this.btnPassphrase.TabIndex = 4;
             this.btnPassphrase.Text = "C&opy";
             this.btnPassphrase.UseVisualStyleBackColor = true;
@@ -123,9 +131,10 @@
             // 
             this.lblPassphraseMsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassphraseMsg.ForeColor = System.Drawing.Color.Red;
-            this.lblPassphraseMsg.Location = new System.Drawing.Point(109, 116);
+            this.lblPassphraseMsg.Location = new System.Drawing.Point(200, 214);
+            this.lblPassphraseMsg.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPassphraseMsg.Name = "lblPassphraseMsg";
-            this.lblPassphraseMsg.Size = new System.Drawing.Size(276, 35);
+            this.lblPassphraseMsg.Size = new System.Drawing.Size(506, 65);
             this.lblPassphraseMsg.TabIndex = 8;
             this.lblPassphraseMsg.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -133,9 +142,10 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(23, 161);
+            this.lblPassword.Location = new System.Drawing.Point(42, 297);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(80, 16);
+            this.lblPassword.Size = new System.Drawing.Size(135, 29);
             this.lblPassword.TabIndex = 10;
             this.lblPassword.Text = "Password:";
             this.lblPassword.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -144,18 +154,21 @@
             // 
             this.txtPassword.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txtPassword.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(109, 154);
+            this.txtPassword.Location = new System.Drawing.Point(200, 284);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.ReadOnly = true;
-            this.txtPassword.Size = new System.Drawing.Size(276, 30);
+            this.txtPassword.Size = new System.Drawing.Size(503, 46);
             this.txtPassword.TabIndex = 5;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnPassword
             // 
-            this.btnPassword.Location = new System.Drawing.Point(402, 154);
+            this.btnPassword.Enabled = false;
+            this.btnPassword.Location = new System.Drawing.Point(737, 284);
+            this.btnPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnPassword.Name = "btnPassword";
-            this.btnPassword.Size = new System.Drawing.Size(40, 30);
+            this.btnPassword.Size = new System.Drawing.Size(73, 55);
             this.btnPassword.TabIndex = 6;
             this.btnPassword.Text = "Co&py";
             this.btnPassword.UseVisualStyleBackColor = true;
@@ -165,18 +178,19 @@
             // 
             this.lblPasswordMsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPasswordMsg.ForeColor = System.Drawing.Color.Red;
-            this.lblPasswordMsg.Location = new System.Drawing.Point(109, 185);
+            this.lblPasswordMsg.Location = new System.Drawing.Point(200, 342);
+            this.lblPasswordMsg.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPasswordMsg.Name = "lblPasswordMsg";
-            this.lblPasswordMsg.Size = new System.Drawing.Size(276, 34);
+            this.lblPasswordMsg.Size = new System.Drawing.Size(506, 63);
             this.lblPasswordMsg.TabIndex = 12;
             this.lblPasswordMsg.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // MainGUI
             // 
             this.AcceptButton = this.btnKey;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 228);
+            this.ClientSize = new System.Drawing.Size(851, 421);
             this.Controls.Add(this.lblPasswordMsg);
             this.Controls.Add(this.btnPassword);
             this.Controls.Add(this.lblPassword);
@@ -189,6 +203,7 @@
             this.Controls.Add(this.btnKey);
             this.Controls.Add(this.lblKey);
             this.Controls.Add(this.txtKey);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.Name = "MainGUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

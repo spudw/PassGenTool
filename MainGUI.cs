@@ -111,6 +111,8 @@ namespace PassGenTool
         {
             txtPassword.Text = "";
             Clipboard.Clear();
+            btnPassphrase.Enabled = false;
+            btnPassword.Enabled = false;
         }
 
         private void CopyPassphrase()
@@ -261,9 +263,8 @@ namespace PassGenTool
                     sKey = UnprotectKey(key);
                 }
                 regKey.Close();
-                return sKey;
             }
-
+            return sKey;
         }
 
         private void SaveKeyToReg(string sValue)
@@ -301,6 +302,8 @@ namespace PassGenTool
                 if ((iX + 1) % 4 == 0 && iX < 19) { sPassword += "-"; }
             }
             txtPassword.Text = sPassword;
+            btnPassphrase.Enabled = true;
+            btnPassword.Enabled = true;
             CopyPassword();
         }
 
